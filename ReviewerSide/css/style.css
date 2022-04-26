@@ -897,3 +897,188 @@ input[type=text] {
     background-color: #ddd;
     border-radius: 5px
 }
+.cardRight{
+    border-style: solid;
+}
+.cardLeft{border-style: solid;
+   
+   }
+   .cardBottom{
+    border-style: solid;
+  
+   }
+   .Card{
+       margin-left: 400px;
+   }
+
+     
+   .AspireLogo{
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+    margin-right: 20px
+}
+ .SunImage{
+     margin-left: 680px;
+ }
+ .Article1{
+     justify-content: center;
+     margin-left: 75px;
+     margin-right: 75px;
+     font-size: large;
+      }
+      .HappyImage{
+        margin-left: 680px;
+    }
+    .Article2{
+        justify-content: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        font-size: large;
+         }
+         .ArtImage{
+            margin-left: 680px;
+        }
+        .Article3{
+            justify-content: center;
+            margin-left: 75px;
+            margin-right: 75px;
+            font-size: large;
+             }
+             .MusicImage{
+                margin-left: 680px;
+            }
+            .Article4{
+                justify-content: center;
+                margin-left: 75px;
+                margin-right: 75px;
+                font-size: large;
+                 }
+                 .NatureImage{
+                    margin-left: 680px;
+     }
+.Reviewed1{
+justify-content: center;
+margin-left: 75px;
+margin-right: 75px;
+ font-size: large;
+  }
+ .JoyImage{
+  margin-left: 680px;
+ }
+.Reviewed2{
+justify-content: center;
+  margin-left: 75px;
+margin-right: 75px;
+  font-size: large;
+ }
+ .SayImage{
+ margin-left: 680px;
+   }
+.Reviewed3{
+ justify-content: center;
+margin-left: 75px;
+margin-right: 75px;
+ font-size: large;
+       }
+     .EvolutionImage{
+   margin-left: 680px;
+     }
+   .Reviewed4{
+  justify-content: center;
+ margin-left: 75px;
+   margin-right: 75px;
+ font-size: large;
+   }
+  .workbalance{
+  margin-left: 680px;
+    }
+ .Reviewed5{
+  justify-content: center;
+ margin-left: 75px;
+  margin-right: 75px;
+font-size: large;
+     }     
+.RejectButton{
+ margin-left: 90px;
+ background-color: #009cff;
+border-radius: 12px;
+ padding: 8px;
+
+}
+#myBtn{
+margin-left: 1300px;
+ background-color: #009cff;
+border-radius: 12px;
+ padding: 8px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  align-items: center;
+  text-align: center;
+  margin-left: 1000px;
+  max-width: 900px;
+ /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+
+  background-color: #7aabe8;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}

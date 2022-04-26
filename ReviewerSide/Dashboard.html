@@ -77,14 +77,13 @@
             <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-20">
                 
                 
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
-                </a>
+              
                 <a href="#" class="sidebar-toggler flex-shrink-0 w-16 p-4">
                     <br><br>
                     <i class="fa fa-bars"></i>
                 </a>&nbsp;&nbsp;
                 &nbsp;&nbsp;
+                <img class="AspireLogo" src="faqs.png" alt="Good Morning Friends"/>  
                 <h3 class="text-primary" &nb>Aspire Overflow</h3>
                 
                 <div class="navbar-nav align-items-center ms-auto">
@@ -93,15 +92,14 @@
             </nav>
             <!-- Navbar End -->
 
-
-            
+           
     <body>
         <!-- Breadcrums Start -->
         <div style="margin:20px;">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="Dashboard.html">Dashboard</a>
+                        <a href="Dashboard.html">Dashboard/..</a>
                     </li>
                     
 
@@ -110,34 +108,66 @@
         </div>
  <!-- Footer End -->
  <h1 style="text-align: center;">Overview Of Dashboard</h1>
- 
+ <br><br><br><br><br>
+ <div class="d-flex">
+    <div class="Card d-md-inline">
+        <div class="cardRight" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">50</h5>
+            <p class="card-text" style="text-align: center;">  Article To Review</p>
+         
+          </div>
+        </div>
+        <br><br>
+        <div class="cardLeft" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">605</h5>
+            <p class="card-text" style="text-align: center;"> Article Reviewed</p>
+         
+          </div>
+        </div>
+        <br><br>
+        <div class="cardBottom" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">1500</h5>
+            <p class="card-text" style="text-align: center;">Total Number of Article</p>
+         
+          </div>
+          
+        </div>
+      </div>
+      <script>
+          window.onload = function() {
+          
+          var chart = new CanvasJS.Chart("chartContainer", {
+              animationEnabled: true,
+              
+              data: [{
+                  type: "pie",
+                  startAngle: 240,
+                  yValueFormatString: "##0.00\"%\"",
+                  indexLabel: "{label} {y}",
+                  dataPoints: [
+                      {y: 79.45, label: "Article Reviewed"},
+                     
+                      {y: 20.55, label: "Article To Review"}
+                     
+                  ]
+              }]
+          });
+          chart.render();
+          
+          }
+          </script>
 
-              <div class="cardRight" style="width: 18rem;">
-               
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center;">605</h5>
-                  <p class="card-text" style="text-align: center;">  Article To Review</p>
-               
-                </div>
-              </div>
-              <div class="cardLeft" style="width: 18rem;">
-               
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center;">605</h5>
-                  <p class="card-text" style="text-align: center;"> Article Reviewed</p>
-               
-                </div>
-              </div>
-              <div class="cardBottom" style="width: 18rem;">
-               
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center;">605</h5>
-                  <p class="card-text" style="text-align: center;">Total Number of Article</p>
-               
-                </div>
-              </div>
+          <div class="d-md-inline" id="chartContainer" style="height: 370px; width: 100%;"></div>
+          <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
-    </body>
+
+ </div>
 
      <!-- Breadcrums end -->
            
