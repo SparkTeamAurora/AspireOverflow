@@ -31,6 +31,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -126,7 +127,7 @@
          <body>
             <div class="container-xl">
                 <div class="title">
-                    <div class="col-sm-30"><h2>Employees List</h2></div> <br><br>    
+                    <div class="col-sm-30"><h2>Employees List</h2></div> 
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
                     <div class="searchbar pull-right">
                       <input type="text" name="search" placeholder="Search...">
@@ -206,15 +207,8 @@
                                     <td> <input type="checkbox" class="larger"></td> 
                                     <main>
                                         <td>
-                                            <button type="button" class="btn btn-outline-danger"><a href="#confirm">Disable</a></button>
-                                            <div id="confirm" hidden>
-                                                <h3>Confirmation</h3>
-                                                <p>Are you sure?</p>
-                                                <button class="warning" onclick="confirmYes()">Yes</button>
-                                                <button onclick="confirmNo()">No</button>  
-                                              </div>
-                    
-                                                
+                                            <button  type="button" class="btn btn-outline-danger">Disable</a></button> 
+                                             
                                         </td>
                                     </main>
                                 </tr>        
@@ -224,7 +218,10 @@
                     </div>
                     
                 </div> 
+            
                 
+                
+
                 <br><br>
                 <div class="pagination justify- content-center">
                     <a href="#">&laquo;</a>
@@ -243,23 +240,8 @@
            
           </table>
 
-          <div class="modal fade" id="popup" role="dialog">
-            <div class="modal-dialog modal-sm">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                  <p>This is a small modal.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-                      
+          
+          
         
             </body>
         

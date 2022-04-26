@@ -56,12 +56,12 @@
 
                    <br><br>
                     <a href="Dashboard.html" class="nav-item nav-link "><i class="fa fa-desktop me-2" aria-hidden="true"></i>Dashboard</a>
-                    <a href="Employee.html" class="nav-item nav-link "><i class="fa fa-child me-2" aria-hidden="true"></i>
+                    <a href="Employee.html" class="nav-item nav-link"><i class="fa fa-child me-2" aria-hidden="true"></i>
                         Employees</a>
                        
                     <a href="SpamReport.html" class="nav-item nav-link active"><i class="fa fa-flag me-2" aria-hidden="true"></i>
                         Spam Reports</a>
-                    <a href="UserVerification.html" class="nav-item nav-link"><i class="fa fa-check me-2" aria-hidden="true"></i>
+                    <a href="UserVerification.html" class="nav-item nav-link "><i class="fa fa-check me-2" aria-hidden="true"></i>
                         User Verfication</a>
                     
                   
@@ -95,80 +95,138 @@
             <!-- Navbar End -->
 
 
-            
-    <body>
-        <!-- Breadcrums Start -->
-        <div style="margin:20px;">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a href="#">Home</a>
-                        <a >>Spam Reports</a>
-                    </li>
+            <body>
+                <!-- Breadcrums Start -->
+                <div style="margin:20px;">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="Dashboard.html">Home</a>
+                                <a>>SpamReports</a>
+                            </li>
+                            
+        
+                        </ol>
+                    </nav>
+                </div>
+         
+               
+                <br><br><br>   
+               
+         <body>
+            <div class="container-xl">
+                <div class="title">
+                    <div class="col-sm-30"><h2>Users to be Verified</h2> 
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+                    <div class="searchbar pull-right">
+                      <input type="text" name="search" placeholder="Search...">
+                      <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                  <br>  <br><br><br>   
+                <div class="table-responsive">
+                    <div class="table-wrapper">
+                       
+                        <table class="table table-striped table-hover table-bordered">
+                           
+                            <thead>
+                                 <tr>
+                                    <th>S.No<i class="fa "></i></th>
+                                    <th>QueryID<i class="fa "></i></th>
+                                    <th>Query Title<i class="fa "></i></th>
+                                    <th>No of Reports<i class="fa"></i></th>
+                                    <th>Action<i class="fa"></i></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Q1</td>
+                                    <td>WEB API</td>
+                                    <td>20</td>
+
+                                    <main>
+                                        <td><button type="button"  class="btn btn-outline-success">View</button>
+                                        </td>
+                                    </main>
+                                
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Q2</td>
+                                    <td>Angular</td>
+                                    <td>15</td>
+
+                                    <main>
+                                        <td><button type="button"  class="btn btn-outline-success">View</button>
+                                        </td>
+                                    </main>
+                                
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Q3</td>
+                                    <td>C#</td>
+                                    <td>10</td>
+
+                                    <main>
+                                        <td><button type="button"  class="btn btn-outline-success">View</button>
+                                        </td>
+                                    </main>
+                                
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Q4</td>
+                                    <td>HTML</td>
+                                    <td>8</td>
+
+                                    <main>
+                                        <td><button type="button"  class="btn btn-outline-success">View</button>
+                                        </td>
+                                    </main>
+                                
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Q5</td>
+                                    <td>SQL</td>
+                                    <td>2</td>
+
+                                    <main>
+                                        <td><button type="button"  class="btn btn-outline-success">View</button>
+                                        </td>
+                                    </main>
+                                
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
                     
-
-                </ol>
-            </nav>
-            <br>
-        </div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-        <div class="searchbar">
-          <input type="text" name="search" placeholder="Search...">
-          <span class="searchbar-icon"><i class="fas fa-search"></i></span>
-        </div>
+                </div> 
+                <br><br>
+                <div class="pagination justify- content-center">
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a href="#" class="active">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div> 
+            </div>   
+            </body>
+            </tr>
         
-        
- <br><br<br><br><br><br><br>
- <table>
-    <tr>
-      <th>Query Number</th>
-      <th>Title</th>
-      <th>ReportedUser ACE Number</th>
-      <th>View Query</th>
-      <th>Delete</th>
-    </tr>
-    <tr>
-      <td>72</td>
-      <td>Spam content</td>
-      <td>ACE5341</td>
-      <td> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
-      <td><button type="button">Delete</button</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>Abusive content</td>
-      <td>ACE4347</td>
-      <td> <input type="checkbox"  id="vehicle1" name="vehicle1" value="Bike"></td>
-      <td><button type="button">Delete</button</td>
-    </tr>
-    <tr>
-      <td>32r</td>
-      <td>Spam Content</td>
-      <td>ACE5317</td>
-      <td> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
-      <td><button type="button">Delete</button</td>
-    </tr>
-    
-    <tr>
-      <td> </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  
-              
-
-    
-
-    
-  </table>   
- <!-- Footer End -->
-
-    </body>
-
-     <!-- Breadcrums end -->
            
+          </table>
+                      
+        
+            </body>
+        
 <!-- Footer Start -->
 <div class="container-fluid bg-light text-light footer ">
     <div class="container">
@@ -193,20 +251,8 @@
         </div>
     </div>
 </div>
-<br>
-<br>
-<br>
 
-<div class="pagination">
-    <a href="#">&laquo;</a>
-    <a href="#">1</a>
-    <a href="#" class="active">2</a>
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
-    <a href="#">&raquo;</a>
-  </div>
+        
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

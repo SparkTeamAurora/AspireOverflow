@@ -7,6 +7,23 @@
     --red:#ff0000;
     --green:#7FFF00;
 }
+.popup {
+    width: 15.333333%;
+    height: 20;
+    padding: 15px;
+    left: 0;
+    margin-left: 50.333333%;
+    margin-top: 10.333333%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    position: fixed;
+    top: 15%;
+    box-shadow: 5px 5px 5px #000;
+    z-index: 10001;
+    text-align: center;
+  }
+
 
 .back-to-top {
     position: fixed;
@@ -305,8 +322,7 @@ input[type=text] {
 
 .searchbar,
 input[type=text] {
-    border-radius: 30px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2)
+    border-radius: 10px;
 }
 
 .pagination {
@@ -373,17 +389,17 @@ input[type=text] {
 }
 
 a:link {
-    color: red;
+    color: #009cff ;
   }
   
   /* visited link */
   a:visited {
-    color: red;
+    color: #009cff;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: white;
   }
   
   /* selected link */
