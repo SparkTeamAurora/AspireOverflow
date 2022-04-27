@@ -153,3 +153,70 @@ body {
 .basic-card-aqua .card-link a:after {
     background: #fff
 }
+
+
+.our-skills {
+    padding: 70px 0px 20px;
+}
+.our-skills .icon {
+    padding: 10px 0px;
+    background-color: #fff;
+    margin: -45px auto 20px;
+    border-radius: 10px;
+    width: 90px;
+}
+.our-skills .icon i {
+    color: #F44336;
+    font-size: 40px;
+    margin: 0 auto;
+    display: table;
+}
+.our-skills .box-shadow {
+    margin-bottom: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #a5a5a5;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+}
+.our-skills .box-shadow:hover {
+    box-shadow: 0px 0px 10px 0px #a5a5a5;
+}
+.our-skills p {
+    font-size: 15px;
+    line-height: 23px;
+    color:#a09f9f;
+    text-align: center;
+}
+.our-skills a {
+    color: #6b6b6b;
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.our-skills h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #6b6b6b;
+    font-weight: 500;
+}
+
+.QueryImgIcon {
+    height: 60px;
+    width: 60px;
+   margin-left: 12px;
+   
+ 
+  
+  
+}
+
+.our-skills a:hover{
+    color:blue;
+}
+
+.QueryCard{
+    border-bottom: 4px solid black;
+    
+}
