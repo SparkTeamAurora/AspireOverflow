@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a class="navbar-brand p-0">
             <a>
-                <img class="LogoImg" src="https://cdn-icons.flaticon.com/png/512/2080/premium/2080707.png?token=exp=1650957534~hmac=341aa622f75856fd9ff979db140c96db">
+                <img class="LogoImg" src="img/Logo.png">
             </a>
             <h1 class="m-0 text-primary">Aspire Overflow</h1>
         </a>
@@ -64,7 +64,7 @@
                             </li>
                         </ul>
                         <a href="myprofile.html" class="dropdown-item">View Profile</a>
-                        <a href="appointment.html" class="dropdown-item">Logout</a>
+                        <a href="login.html" class="dropdown-item">Logout</a>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,12 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="Home.html">Home / </a>                   
-                        <a href="ViewQueries.html">Queries</a>
+                        <a href="Home.html">Home</a>
+
+                    </li>
+                    <li class="breadcrumb-item">
+
+                        <a href="myqueries.html">My Queries</a>
 
                     </li>
                     <li class="breadcrumb-item active">
@@ -110,16 +114,20 @@
                     <input type="text" id="fname" name="fname" class="textwidth"><br><br>
                     <label class="raise" for="fname"><b>Query</b></label>
 
-                    <textarea class="form-control1" rows="5" cols="4" placeholder="maximum 200words"></textarea>
+                    <textarea class="form-control1" rows="5" cols="4" placeholder="Maximum 200 words"></textarea>
                     <div class="mt-2 text-right"><button class="custom-btn btn-1" type="button">Raise
-                            Query</button><button class="custom-btn btn-1 inner"
-                            type="button">back</button></div>
-            </div>
+                            Query</button>
+                        <button type="button" class="collapsible custom-btn btn-1">Add Code</button>
+                        <div class="colcontent">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+                            <textarea class="form-control1"></textarea>
+                        </div>
+                    </div>
 
-            </form>
+                </form>
+            </div>
         </div>
-</div>
-</body>
+    </body>
 </div>
 <!-- Breadcrums End-->
 
@@ -160,6 +168,8 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+<script src="js/SpecificQuery.js"></script>
+
 
 
 </html>
