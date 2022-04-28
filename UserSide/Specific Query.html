@@ -30,8 +30,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a class="navbar-brand p-0">
             <a>
-                <img class="LogoImg"
-                    src="https://cdn-icons.flaticon.com/png/512/2080/premium/2080707.png?token=exp=1650957534~hmac=341aa622f75856fd9ff979db140c96db">
+                <img class="LogoImg" src="img/logo.png">
             </a>
             <h1 class="m-0 text-primary">Aspire Overflow</h1>
         </a>
@@ -41,27 +40,27 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="ViewArticles.html" class="nav-item nav-link">Articles</a>
-                <a href="ViewQueries.html" class="nav-item nav-link">Queries</a>
+                <a href="about.html" class="nav-item nav-link">Articles</a>
+                <a href="service.html" class="nav-item nav-link">Queries</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Profile</a>
                     <div class="dropdown-menu m-0">
-                        <a href="MyArticles.html" class="dropdown-item">My Articles</a>
+                        <a href="price.html" class="dropdown-item">My Articles</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
                                 <a class="dropdown-item" href="#">Create Articles</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="MyArticles.html">My Articles</a>
+                                <a class="dropdown-item" href="#">My Articles</a>
                             </li>
                         </ul>
-                        <a href="myqueries.html" class="dropdown-item">My Queries</a>
+                        <a href="team.html" class="dropdown-item">My Queries</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
-                                <a class="dropdown-item" href="RaiseQuery.html">Raise Query</a>
+                                <a class="dropdown-item" href="#">Raise Query</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="myqueries.html">My Queries</a>
+                                <a class="dropdown-item" href="#">My Queries</a>
                             </li>
                         </ul>
                         <a href="testimonial.html" class="dropdown-item">View Profile</a>
@@ -82,134 +81,99 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="index.html">Home / </a>
-                        <a href="ViewQueries.html">Queries</a>
-
+                        <a href="#">Home</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Stack and Heap
+                        Article
                     </li>
 
                 </ol>
             </nav>
         </div>
-        <!-- Breadcrums End-->
-        <div class="container top">
-            <button type="button" class="custom-btn btn-1">Report Spam</button>
-        </div>
-        <div class="container p-5 my-5 border">
-            <div class="text-center">
-                <h1>Stack and Heap</h1>
+    </body>
+</div>
+<!-- Breadcrums End-->
+<div class="container top">
+    <button type="button" class="custom-btn btn-1">Report Spam</button>
+</div>
+<div class="container p-5 my-5 border">
+    <div class="text-center">
+        <h1>Stack and Heap</h1>
 
-            </div>
-            <div class="panel panel-default">
-
-
-                <p> What is Stack and Heap?
-                    Programming language books explain that value types are created on the stack, and reference types
-                    are created on the heap, without explaining what these two things are. I haven't read a clear
-                    explanation of this. I understand what a stack is. But,
-                    Where and what are they (physically in a real computer's memory)?
-                    To what extent are they controlled by the OS or language run-time?
-                    What is their scope?
-                    What determines the size of each of them?
-                    What makes one faster<span id="dots">?</span><span id="more"><br>The stack is the memory set aside
-                        as scratch space for a thread of execution. When a function is called, a block is reserved on
-                        the top of the stack for local variables and some bookkeeping data. When that function returns,
-                        the block becomes unused and can be used the next time a function is called. The stack is always
-                        reserved in a LIFO (last in first out) order; the most recently reserved block is always the
-                        next block to be freed. This makes it really simple to keep track of the stack; freeing a block
-                        from the stack is nothing more than adjusting one pointer.
-
-                        The heap is memory set aside for dynamic allocation. Unlike the stack, there's no enforced
-                        pattern to the allocation and deallocation of blocks from the heap; you can allocate a block at
-                        any time and free it at any time. This makes it much more complex to keep track of which parts
-                        of the heap are allocated or free at any given time; there are many custom heap allocators
-                        available to tune heap performance for different usage patterns.
-
-                        Each thread gets a stack, while there's typically only one heap for the application (although it
-                        isn't uncommon to have multiple heaps for different types of allocation).
-                    </span></p>
+    </div>
+    <div class="panel panel-default">
 
 
-                <button onclick="myFunction()" id="myBtn">View Query</button>
+        <p> What is Stack and Heap?
+            Programming language books explain that value types are created on the stack, and reference types
+            are created on the heap, without explaining what these two things are. I haven't read a clear
+            explanation of this. I understand what a stack is. But,
+            Where and what are they (physically in a real computer's memory)?
+            To what extent are they controlled by the OS or language run-time?
+            What is their scope?
+            What determines the size of each of them?
+            What makes one faster<br>
+            <pre class="colcolor">
+         
+                int main()
+                {
+                   // All these variables get memory
+                   // allocated on stack
+                   int a;
+                   int b[10];
+                   int n = 20;
+                   int c[n];
+                }
+            </pre>                
+        </p>
+        <h4>30 Answers</h4>
+        <p class="ans-body"><label><b>ANSWER :  </b></label>Stack is a linear data structure whereas Heap is a hierarchical data structure.
+             Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of memory
+             are first allocated and then freed. Stack accesses local variables only while Heap allows you to access
+             variables globally
+             <p class="ans-body">Front End View</p>  
+<pre class="ans-body"><code> int main()
+    {
+       // All these variables get memory
+       // allocated on stack
+       int a;
+       int b[10];
+       int n = 20;
+       int c[n];
+    }</code></pre>
 
-            </div>
-            <br>
-            <br>
-            <h4>30 Answers</h4>
-            <div class="row">
-                <div class="col-md align-center">
-                    <td>
-                        <button class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer "
-                            data-controller="s-tooltip" data-s-tooltip-placement="right" aria-pressed="false"
-                            aria-label="Up vote" data-selected-classes="fc-theme-primary" data-unselected-classes=""
-                            aria-describedby="--stacks-s-tooltip-bgkptotw">
-                            <svg aria-hidden="true" class="svg-icon iconArrowUpLg" width="36" height="36"
-                                viewBox="0 0 36 36">
-                                <path d="M2 25h32L18 9 2 25Z"></path>
-                            </svg>
-                        </button>
+             <span id="dots"></span><span id="more">
+                 <br>
+                 <br>
+                 <p class="ans-body">   <label><b>ANSWER :  </b></label>Stack is a linear data structure whereas Heap is a hierarchical data structure.
+                 Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of
+                 memory
+                 are first allocated and then freed. Stack accesses local variables only while Heap allows you to
+                 access variables globally.</p><br>
+             </span>
+         </p>
+         <button class="btnpad" onclick="myFunction()" id="myBtn">View More Answers</button>
+         <br>
+         <br>
+         <br>
 
-                        <div class="js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title"
-                            itemprop="upvoteCount" data-value="11">
-                            11
-                        </div>
-                        <button class="js-vote-down-btn flex--item s-btn s-btn__unset c-pointer "
-                            data-controller="s-tooltip" data-s-tooltip-placement="right" aria-pressed="false"
-                            aria-label="Down vote" data-selected-classes="fc-theme-primary" data-unselected-classes=""
-                            aria-describedby="--stacks-s-tooltip-uz19ubml">
-                            <svg aria-hidden="true" class="svg-icon iconArrowDownLg" width="36" height="36"
-                                viewBox="0 0 36 36">
-                                <path d="M2 11h32L18 27 2 11Z"></path>
-                            </svg>
-                        </button>
-                    </td>
-                </div>
-                <div class="col-md-11 align-left">
-                 
-                    <p class="ans-body"><label><b>ANSWER : </b></label>Stack is a linear data structure whereas Heap is
-                        a
-                        hierarchical data structure.
-                        Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of
-                        memory
-                        are first allocated and then freed. Stack accesses local variables only while Heap allows you to
-                        access
-                        variables globally</span>
-                        <span id="ansicon"></span>.<span id="moreanswers">
-                            <br>
-                            <br>
-                            <label><b>ANSWER : </b></label>Stack is a linear data structure whereas Heap is a
-                            hierarchical data
-                            structure.
-                            Stack memory will never become fragmented whereas Heap memory can become fragmented as
-                            blocks of
-                            memory
-                            are first allocated and then freed. Stack accesses local variables only while Heap allows
-                            you to
-                            access variables globally.<br>
-                       
-                    </p>
-                </div>
-            </div>
-            <button class="btnpad" onclick="myFunction1()" id="ansBtn">View More Answers</button>
-            <br>
-            <br>
-            <br>
-            <h5>Comment Your Answer</h5>
+         <h5>Comment Your Answer</h5>
             <div>
                 <div class="bg-light p-2">
                     <textarea class="form-control"></textarea>
                 </div>
-                <div class="mt-2 text-right"><button class="custom-btn btn-1" type="button">Post comment</button> </div>
+                <div class="mt-2 text-right"><button class="custom-btn btn-1" id="button-code" type="button">Post comment</button> </div>
+
+                <button type="button" class="collapsible">Add Code</button>
+                <div class="colcontent">
+                   <textarea class="form-control1"> </textarea>
+                </div>
             </div>
-        </div>
-    </body>
+
+    </div>
 </div>
-
-
 <!-- Footer Start -->
-<div class="container-fluid text-light footer flex-end" style="background: #051225;">
+<div class="container-fluid text-light float-end" style="background: #051225;">
     <div class="container">
         <div class="row g-0">
             <div class="col-md-4 text-center text-md-start">
@@ -244,7 +208,5 @@
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
 <script src="js/SpecificQuery.js"></script>
-
-
 
 </html>

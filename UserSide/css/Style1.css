@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top {
-    position: fixed;
+  
     display: none;
     right: 45px;
     bottom: 45px;
@@ -225,6 +225,9 @@ h6 {
     margin-left:50px;
 
 }
+#more{
+    display:none;
+}
 #moreanswers{
     display:none;
 }
@@ -285,4 +288,29 @@ button.custom-btn.btn-1.inner{
 }
 #right-content{
     display:inline-block;width:95%;padding-top: 20px;
+}
+.collapsible {
+ 
+    color:black;
+    cursor: pointer;
+    padding: 5px;
+    width: 115px;
+    border: none;
+    text-align:center;
+    outline: none;
+    font-size: 15px;
+  }
+
+  
+  .colcontent {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:white;
+  }
+.colcolor{
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
 }
