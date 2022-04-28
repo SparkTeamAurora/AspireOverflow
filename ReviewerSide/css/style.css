@@ -1001,28 +1001,28 @@ margin-right: 75px;
 font-size: large;
      }     
 .RejectButton{
- margin-left: 130px;
+ margin-left: 100px;
  background-color: #009cff;
 border-radius: 12px;
  padding: 8px;
 
 }
 .publishButton{
-margin-left: 1300px;
+margin-left: 900px;
  background-color: #009cff;
 border-radius: 12px;
  padding: 8px
 }
 .Textarea{
-   margin-left: 500px;
-  border-radius: 5px;
-  border-width: 3px;
-  resize: none;
-  margin-right:auto;
-  margin-top:150px;
+   margin-left: 150px;
+  border-radius: 100px;
+  border-width: 6px;
+  margin-right:500px;
+  margin-top:50px;
+  
 }
 .send{
-    margin-left: 1140px;
+    margin-left: 500px;
 }
 .Thankcard {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -1040,4 +1040,21 @@ border-radius: 12px;
   .Thankcontainer {
     padding: 90px 90px 90px 90px;
     text-align:center;
+  }
+
+
+  .Toreviewtext{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .reason{
+     margin-left: 10px;
+     font-weight: bold;
+     font-size: xx-large;
+  }
+  .Reviewarticle{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
   }
