@@ -94,105 +94,94 @@
           <li class="breadcrumb-item">
             <a href="MyArticles.html">My Articles</a>
           </li>
+          <li class="breadcrumb-item">
+            <a href="MyArticles.html">Published Articles</a>
+          </li>
           <li class="breadcrumb-item active">
-            Create Article
+            Web API
           </li>
 
         </ol>
       </nav>
     </div>
     <div class="container editor">
-      <form>
-        <div class="w-25 p-3">
-          <label class="form-label">Name:</label>
-          <input class="form-control" placeholder="Enter Name">
-        </div>
-        <div class="w-25 p-3">
-          <label class="form-label">Title:</label>
-          <input class="form-control" placeholder="Enter Title">
-        </div>
-        <div class="editor-btn">
-          <button class="custom-btn btn-1" type="button" data-toggle="modal"
-            data-target="#invitegroupModalCenter">Create Group</button>
-        </div>
-        <form action="MyArticles.html" method="post">
-          <div>
-            <textarea cols="80" rows="10" id="content" name="content">
-        &lt;h1&gt;Article Title&lt;/h1&gt;
-        &lt;p&gt;Start Typing here&lt;/p&gt;
+      <form action="MyArticles.html" method="post">
+        <div>
+          <textarea cols="80" rows="10" id="content" name="content">
+        &lt;p&gt; A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.A web API is an application programming interface for either a web server or a
+        web browser. It is a web development concept usually limited to a client-side.&lt;/p&gt;
       </textarea>
-            <script type="text/javascript">
-              CKEDITOR.replace('content');
-            </script>
-            <div class="editor-btn">
-              <button class="custom-btn btn-1" type="button" data-toggle="modal" data-target="#draftModal">Save to
-                Draft</button>
-              <button class="custom-btn btn-1" type="button" data-toggle="modal"
-                data-target="#SubmitModal">Submit</button>
-            </div>
-          </div>
-        </form>
-        <div class="modal fade" id="draftModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                Article Saved to Draft Successfully
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
+          <script type="text/javascript">
+            CKEDITOR.replace('content');
+          </script>
+          <div class="editor-btn">
+            <button class="custom-btn btn-1" type="button" data-toggle="modal" data-target="#draftModal">Save to
+              Draft</button>
+            <button class="custom-btn btn-1" type="button" data-toggle="modal"
+              data-target="#SubmitModal">Submit</button>
           </div>
         </div>
-        <div class="modal fade" id="SubmitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                Article Submitted Successfully
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-              </div>
+      </form>
+      <div class="modal fade" id="draftModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              Article Saved to Draft Successfully
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-    </div>
-  </div>
-  <div class="modal fade" id="invitegroupModalCenter" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Create Group</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <label class="col-form-label">girish@gmail.com</label>
-          <a><i class="fa fa-solid fa-circle-xmark"></i></a>
-          <label class="col-form-label">kumar@gmail.com</label>
-          <a><i class="fa fa-solid fa-circle-xmark"></i></a>
-          <div class="row g-3 align-items-center">
-            <div class="col-auto">
-              <label class="col-form-label">Share</label>
+      </div>
+      <div class="modal fade" id="SubmitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              Article Submitted Successfully
             </div>
-            <div class="col-auto">
-              <input type="email" class="form-control">
-            </div>
-            <div class="col-auto">
-              <a><i class="fa fa-plus"></i></a>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Create Group</button>
         </div>
       </div>
     </div>
   </div>
 </body>
+<!-- Footer Start -->
+<div class="container-fluid text-light float-end" style="background: #051225;">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-md-4 text-center text-md-start">
+        <p class="mb-md-0">&copy; <a class="text-white border-bottom">Aspire Overflow</a>. All Rights
+          Reserved.</p>
+      </div>
+      <div class="col-md-4 text-center text-md-middle">
+        <p class="mb-0 "> <a class="text-white">Address: 1/D-1,SIPCOT IT
+            PARK,Siruseri,Chennai-603103</a><br>
+        <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-white">
+            Phone:+91-4467404000</a><br>
+        <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-white">
+            Email:info-india@aspiresys.com</a><br>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <p class="mb-0">Designed by <a class="text-white border-bottom">Team Aurora</a><br>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer End -->
 
 </html>
