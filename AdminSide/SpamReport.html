@@ -12,12 +12,20 @@
     <link href="img/favicon.ico" rel="icon">
     <link href="https://fontawesome.com/icons" rel="icon">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -31,242 +39,335 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
 </head>
 
 <body>
-    
+
+    </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Sidebar Start -->
+    <div class="sidebar pe-4 pb-3">
+        <nav class="navbar bg-light navbar-light">
+            <a href="index.html" class="navbar-brand mx-4 mb-3">
+
+            </a>
+            <div class="d-flex align-items-center ms-4 mb-4">
+                <div class="position-relative">
+
+                </div>
+
             </div>
-        </div>
-        <!-- Spinner End -->
+            <div class="navbar-nav w-100">
+
+                <br><br>
+                <a href="Dashboard.html" class="nav-item nav-link "><i class="fa fa-desktop me-2"
+                        aria-hidden="true"></i>Dashboard</a>
+                <a href="Employee.html" class="nav-item nav-link"><i class="fa fa-child me-2" aria-hidden="true"></i>
+                    Employees</a>
+
+                <a href="SpamReport.html" class="nav-item nav-link active"><i class="fa fa-flag me-2"
+                        aria-hidden="true"></i>
+                    Spam Reports</a>
+                <a href="UserVerification.html" class="nav-item nav-link "><i class="fa fa-check me-2"
+                        aria-hidden="true"></i>
+                    User Verfication</a>
 
 
-        <!-- Sidebar Start -->
-        <div class="sidebar pe-4 pb-3">
-            <nav class="navbar bg-light navbar-light">
-                <a href="index.html" class="navbar-brand mx-4 mb-3">
-                    
-                </a>
-                <div class="d-flex align-items-center ms-4 mb-4">
-                    <div class="position-relative">
-                        
-                    </div>
-                    
-                </div>
-                <div class="navbar-nav w-100">
+            </div>
 
-                   <br><br>
-                    <a href="Dashboard.html" class="nav-item nav-link "><i class="fa fa-desktop me-2" aria-hidden="true"></i>Dashboard</a>
-                    <a href="Employee.html" class="nav-item nav-link"><i class="fa fa-child me-2" aria-hidden="true"></i>
-                        Employees</a>
-                       
-                    <a href="SpamReport.html" class="nav-item nav-link active"><i class="fa fa-flag me-2" aria-hidden="true"></i>
-                        Spam Reports</a>
-                    <a href="UserVerification.html" class="nav-item nav-link "><i class="fa fa-check me-2" aria-hidden="true"></i>
-                        User Verfication</a>
-                    
-                  
-                </div>
-           
-            </nav>
-        </div>
-        <!-- Sidebar End -->
+        </nav>
+    </div>
+    <!-- Sidebar End -->
 
 
-        <!-- Content Start -->
-        <div class="content">
-            <!-- Navbar Start -->
-            <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-20">
+    <!-- Content Start -->
+    <div class="content">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-20">
                 
                 
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
-                </a>
-                <a href="#" class="sidebar-toggler flex-shrink-0 w-16 p-4">
-                    <br><br>
-                    <i class="fa fa-bars"></i>
-                </a>&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                <h3 class="text-primary" &nb>Aspire Overflow</h3>
-                
-                <div class="navbar-nav align-items-center ms-auto">
-                    <div class="nav-item dropdown">
-                        <button type="button" class="btn btn-primary rounded-pill m-2">Logout</button>
-            </nav>
-            <!-- Navbar End -->
+              
+            <a href="#" class="sidebar-toggler flex-shrink-0 w-16 p-4">
+                <br><br>
+                <i class="fa fa-bars"></i>
+            </a>&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <img class="AspireLogo" src="img/faqs.png" alt="Good Morning Friends"/>  
+            <h2 class="text-primary">Aspire Overflow</h2>
+            
+            <div class="navbar-nav align-items-center ms-auto">
+                <div class="nav-item dropdown">
+                    <button type="button" class="btn btn-primary rounded-pill m-2">Logout</button>
+        </nav>
+        <!-- Navbar End -->
 
+
+        <body>
+            <!-- Breadcrums Start -->
+            <div style="margin:20px;">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="Dashboard.html">Home</a>
+                            <a>>SpamReports</a>
+                        </li>
+
+
+                    </ol>
+                </nav>
+            </div>
+
+
+            <br><br><br>
 
             <body>
-                <!-- Breadcrums Start -->
-                <div style="margin:20px;">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="Dashboard.html">Home</a>
-                                <a>>SpamReports</a>
-                            </li>
-                            
-        
-                        </ol>
-                    </nav>
-                </div>
-         
-               
-                <br><br><br>   
-               
-         <body>
-            <div class="container-xl">
-                <div class="title">
-                    <div class="col-sm-30"><h2>Users to be Verified</h2> 
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-                    <div class="searchbar pull-right">
-                      <input type="text" name="search" placeholder="Search...">
-                      <span class="searchbar-icon"><i class="fas fa-search"></i></span>
-                    </div>
-                </div>
-                  <br>  <br><br><br>   
-                <div class="table-responsive">
-                    <div class="table-wrapper">
-                       
-                        <table class="table table-striped table-hover table-bordered">
-                           
-                            <thead>
-                                 <tr>
-                                    <th>S.No<i class="fa "></i></th>
-                                    <th>QueryID<i class="fa "></i></th>
-                                    <th>Query Title<i class="fa "></i></th>
-                                    <th>No of Reports<i class="fa"></i></th>
-                                    <th>Action<i class="fa"></i></th>
 
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Q1</td>
-                                    <td>WEB API</td>
-                                    <td>20</td>
+                <div class="container-xl">
+                    <div class="title">
+                        <div class="col-sm-30">
+                            <h2>Spam Report</h2>
+                            <link rel="stylesheet"
+                                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+                            <div class="searchbar pull-right">
+                                <input type="text" name="search" placeholder="Search...">
+                                <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                        <br> <br><br><br>
+                        <div class="table-responsive">
+                            <div class="table-wrapper">
 
-                                    <main>
-                                        <td><button type="button"  class="btn btn-outline-success">View</button>
-                                        </td>
-                                    </main>
-                                
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Q2</td>
-                                    <td>Angular</td>
-                                    <td>15</td>
+                                <table class="table table-striped table-hover table-bordered">
 
-                                    <main>
-                                        <td><button type="button"  class="btn btn-outline-success">View</button>
-                                        </td>
-                                    </main>
-                                
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Q3</td>
-                                    <td>C#</td>
-                                    <td>10</td>
+                                    <thead>
+                                        <tr>
+                                            <th>S.No<i class="fa "></i></th>
+                                            <th>QueryID<i class="fa "></i></th>
+                                            <th>Query Title<i class="fa "></i></th>
+                                            <th>No of Reports<i class="fa"></i></th>
+                                            <th>Action<i class="fa"></i></th>
 
-                                    <main>
-                                        <td><button type="button"  class="btn btn-outline-success">View</button>
-                                        </td>
-                                    </main>
-                                
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Q4</td>
-                                    <td>HTML</td>
-                                    <td>8</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Q1</td>
+                                            <td>WEB API</td>
+                                            <td>20</td>
 
-                                    <main>
-                                        <td><button type="button"  class="btn btn-outline-success">View</button>
-                                        </td>
-                                    </main>
-                                
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Q5</td>
-                                    <td>SQL</td>
-                                    <td>2</td>
+                                            <main>
+                                                <td><button type="button" class="btn btn-outline-success"
+                                                        data-toggle="modal" data-target="#mybtnmodal">View</button>
+                                                </td>
+                                            </main>
 
-                                    <main>
-                                        <td><button type="button"  class="btn btn-outline-success">View</button>
-                                        </td>
-                                    </main>
-                                
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Q2</td>
+                                            <td>Angular</td>
+                                            <td>15</td>
+
+                                            <main>
+                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                </td>
+                                            </main>
+
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Q3</td>
+                                            <td>C#</td>
+                                            <td>10</td>
+
+                                            <main>
+                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                </td>
+                                            </main>
+
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Q4</td>
+                                            <td>HTML</td>
+                                            <td>8</td>
+
+                                            <main>
+                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                </td>
+                                            </main>
+
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Q5</td>
+                                            <td>SQL</td>
+                                            <td>2</td>
+
+                                            <main>
+                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                </td>
+                                            </main>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>
+                        <br><br>
+                   
+                            <div class="pagination justify-content-center">
+                                <a href="#">&laquo;</a>
+                                <a href="#">1</a>
+                                <a href="#" class="active">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a href="#">6</a>
+                                <a href="#">&raquo;</a>
+                            </div>
                         
                     </div>
-                    
-                </div> 
-                <br><br>
-                <div class="pagination justify- content-center">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a href="#" class="active">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">&raquo;</a>
-                  </div> 
-            </div>   
+
             </body>
             </tr>
-        
-           
-          </table>
-                      
-        
-            </body>
-        
-<!-- Footer Start -->
-<div class="container-fluid bg-light text-light footer ">
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-md-4 text-center text-md-start">
-                <p class="mb-md-0 text-dark">&copy; <a class="text-dark">Aspire Overflow</a> All Rights
-                    Reserved.</p>
-            </div>
-            <div class="col-md-4 text-center text-md-middle">
-                <p class="mb-0 "> <a class="text-dark">Address: 1/D-1,SIPCOT IT
-                        PARK,Siruseri,Chennai-603103</a><br>
-                <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-dark">
-                        Phone:+91-4467404000</a><br>
-                <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-dark">
-                        Email:info-india@aspiresys.com</a><br>
-            </div>
-            <div class="col-md-4 text-center text-md-end">
-                <p class="mb-0 text-dark">Designed by <a class=" text-dark">Team Aurora</a><br>
 
-                </p>
+
+
+            <div class="modal fade" id="mybtnmodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Spam Reports</h4>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+
+                        </div>
+                        <div class="modal-body">
+                            <p> What is Stack and Heap?
+                                Programming language books explain that value types are created on the stack, and
+                                reference types
+                                are created on the heap, without explaining what these two things are. I haven't
+                                read a
+                                clear
+                                explanation of this. I understand what a stack is. But,
+                                Where and what are they (physically in a real computer's memory)?
+                                To what extent are they controlled by the OS or language run-time?
+                                What is their scope?
+                                What determines the size of each of them?
+                                What makes one faster<span id="dots"> </span><span id="more">The stack is the memory
+                                    set
+                                    aside
+                                    as scratch space for a thread of execution. When a function is called, a block
+                                    is
+                                    reserved on
+                                    the top of the stack for local variables and some bookkeeping data. When that
+                                    function returns,
+                                    the block becomes unused and can be used the next time a function is called. The
+                                    stack is always
+                                    reserved in a LIFO (last in first out) order; the most recently reserved block
+                                    is
+                                    always the
+                                    next block to be freed. This makes it really simple to keep track of the stack;
+                                    freeing a block
+                                    from the stack is nothing more than adjusting one pointer.
+
+                                    The heap is memory set aside for dynamic allocation. Unlike the stack, there's
+                                    no
+                                    enforced
+                                    pattern to the allocation and deallocation of blocks from the heap; you can
+                                    allocate
+                                    a block at
+                                    any time and free it at any time. This makes it much more complex to keep track
+                                    of
+                                    which parts
+                                    of the heap are allocated or free at any given time; there are many custom heap
+                                    allocators
+                                    available to tune heap performance for different usage patterns.
+
+                                    Each thread gets a stack, while there's typically only one heap for the
+                                    application
+                                    (although it
+                                    isn't uncommon to have multiple heaps for different types of allocation).
+
+                                </span>
+                            </p>
+                            <div>
+                                <button onclick="myFunction()" class="btn btn-link" id="myBtn">View Full Query</button>
+                            </div>
+
+                            <hr>
+                            <div>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Reject</button>
+                                <button type="button" class=" btn btn-primary right-btn"
+                                    data-dismiss="modal">Approve</button>
+
+                            </div>
+                            <hr>
+                            <div>
+                                <p>
+                                    Venkat :Unwanted Content </p>
+                                <p>Pooja : Inappropriate Content</p>
+                                <p>Ponvizhi : Abusive Content </p>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-light text-light footer ">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-4 text-center text-md-start">
+                        <p class="mb-md-0 text-dark">&copy; <a class="text-dark">Aspire Overflow</a> All Rights
+                            Reserved.</p>
+                    </div>
+                    <div class="col-md-4 text-center text-md-middle">
+                        <p class="mb-0 "> <a class="text-dark">Address: 1/D-1,SIPCOT IT
+                                PARK,Siruseri,Chennai-603103</a><br>
+                        <p class="mb-0 "><i class=" fa fa-light fa-phone"></i><a class="text-dark">
+                                Phone:+91-4467404000</a><br>
+                        <p class="mb-0 "> <i class="fa fa-light fa-envelope"></i><a class="text-dark">
+                                Email:info-india@aspiresys.com</a><br>
+                    </div>
+                    <div class="col-md-4 text-center text-md-end">
+                        <p class="mb-0 text-dark">Designed by <a class=" text-dark">Team Aurora</a><br>
+
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-        
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/chart/chart.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/chart/chart.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/Modal.js"></script>
 </body>
 
 </html>

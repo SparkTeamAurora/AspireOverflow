@@ -937,3 +937,31 @@ input[type=text] {
     background-color: #ddd;
     border-radius: 5px
 }
+.cardRight{
+    border-style: solid;
+}
+.cardLeft{
+    border-style: solid;
+   
+   }
+   .cardBottom{
+    border-style: solid;
+  
+   }
+   .cardLeft1{
+    border-style: solid;
+   
+   }
+   .cardBottom1{
+    border-style: solid;
+  
+   }
+   .Card{
+       margin-left: 400px;
+   }
+   .AspireLogo{
+    height: 60px;
+    width: 60px;
+    margin-top: 7px;
+    margin-right: 20px
+   }

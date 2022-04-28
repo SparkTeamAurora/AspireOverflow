@@ -56,13 +56,13 @@
 
                    <br><br>
                     <a href="Dashboard.html" class="nav-item nav-link active"><i class="fa fa-desktop me-2" aria-hidden="true"></i>Dashboard</a>
-                    <a href="Employee.html" class="nav-item nav-link"><i class="fa fa-child me-2" aria-hidden="true"></i>
-                        Employees</a>
-                       
-                    <a href="SpamReport.html" class="nav-item nav-link"><i class="fa fa-flag me-2" aria-hidden="true"></i>
-                        Spam Reports</a>
-                    <a href="UserVerification.html" class="nav-item nav-link"><i class="fa fa-check me-2" aria-hidden="true"></i>
-                        User Verfication</a>
+                    <a href="Employee.html" class="nav-item nav-link "><i class="fas fa-money-check me-2"  aria-hidden="true"></i>Employees</a>
+                    <a href="SpamReport.html" class="nav-item nav-link "><i class="fas fa-calendar-check me-2"aria-hidden="true"></i>Spam Reports</a>
+                    <a href="UserVerification.html" class="nav-item nav-link "><i class="fas fa-calendar-check me-2"aria-hidden="true"></i>User Verification</a>
+                </div>
+           
+            </nav>
+        </div>
                     
                   
                 </div>
@@ -78,15 +78,14 @@
             <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-20">
                 
                 
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
-                </a>
+              
                 <a href="#" class="sidebar-toggler flex-shrink-0 w-16 p-4">
                     <br><br>
                     <i class="fa fa-bars"></i>
                 </a>&nbsp;&nbsp;
                 &nbsp;&nbsp;
-                <h3 class="text-primary" &nb>Aspire Overflow</h3>
+                <img class="AspireLogo" src="img/faqs.png" alt="Good Morning Friends"/>  
+                <h2 class="text-primary">Aspire Overflow</h2>
                 
                 <div class="navbar-nav align-items-center ms-auto">
                     <div class="nav-item dropdown">
@@ -94,27 +93,108 @@
             </nav>
             <!-- Navbar End -->
 
-
-            
+           
     <body>
         <!-- Breadcrums Start -->
         <div style="margin:20px;">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="#">Home/..</a>
+                        <a href="Dashboard.html">Dashboard</a>
                     </li>
                     
 
                 </ol>
             </nav>
         </div>
- <!-- Footer End -->
+         <!-- Breadcrums end -->
 
-    </body>
-
-     <!-- Breadcrums end -->
+ <h1 style="text-align: center;">Overview Of Dashboard</h1>
+ <br><br><br>
+ <div class="d-flex">
+    <div class="Card d-md-inline">
+        <div class="cardRight" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">4250</h5>
+            <p class="card-text" style="text-align: center;">Total Number of  Users</p>
+         
+          </div>
+        </div>
+        <br><br>
+        <div class="cardLeft" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">64</h5>
+            <p class="card-text" style="text-align: center;">Total Number of Reviewers</p>
+         
+          </div>
+        </div>
+        <br><br>
+        <div class="cardBottom" style="width: 18rem;">
+         
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">2500</h5>
+            <p class="card-text" style="text-align: center;">Total Number of Articles</p>
+         
+          </div>
+          
+        </div>
+        <br><br>
+        <div class="cardLeft1" style="width: 18rem;">
+         
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">150</h5>
+              <p class="card-text" style="text-align: center;">Solved Query</p>
            
+            </div>
+            
+          </div>
+          <br><br>
+          <div class="cardBottom1" style="width: 18rem;">
+         
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">35</h5>
+              <p class="card-text" style="text-align: center;">UnSolved Query</p>
+           
+            </div>
+            
+          </div>
+      </div>
+  
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+      <body>
+      <div
+      id="myChart" style="width:300%; max-width:3000px; height:500px;">
+      </div>
+      <!--piechart start-->
+      <script>
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      
+      function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Admin Dashboard', 'Mhl'],
+        ['Total Number of Articles',36.2],
+        ['Total Number of Queries',63.8]
+      ]);
+      
+      var options = {
+        
+        is3D:true
+      };
+      
+      var chart = new google.visualization.PieChart(document.getElementById('myChart'));
+        chart.draw(data, options);
+      }
+      </script>
+      
+      </body>
+ </div>
+
+    
+          <!--piechart End--> 
 <!-- Footer Start -->
 <div class="container-fluid bg-light text-light footer ">
     <div class="container">
@@ -139,7 +219,7 @@
         </div>
     </div>
 </div>
-
+ <!-- Footer End -->
         
 
     <!-- JavaScript Libraries -->
