@@ -115,6 +115,12 @@
           <button class="custom-btn btn-1" type="button" data-toggle="modal"
             data-target="#invitegroupModalCenter">Create Group</button>
         </div>
+
+
+
+
+
+
         <form action="MyArticles.html" method="post">
           <div>
             <textarea cols="80" rows="10" id="content" name="content">
@@ -160,40 +166,43 @@
         </div>
     </div>
   </div>
-  <div class="modal fade" id="invitegroupModalCenter" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal fade" id="invitegroupModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Create Group</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <label class="col-form-label">girish@gmail.com</label>
-          <a><i class="fa fa-solid fa-circle-xmark"></i></a>
-          <label class="col-form-label">kumar@gmail.com</label>
-          <a><i class="fa fa-solid fa-circle-xmark"></i></a>
-          <div class="row g-3 align-items-center">
-            <div class="col-auto">
-              <label class="col-form-label">Share</label>
-            </div>
-            <div class="col-auto">
-              <input type="email" class="form-control">
-            </div>
-            <div class="col-auto">
-              <a><i class="fa fa-plus"></i></a>
+      <div class="modal-content rounded-0">
+        <div class="modal-body bg-image overlay">
+
+          <div class="line px-3 to-front">
+            <div class="row align-items-center">
+              <div class="col logo">
+                <a href="#"><img src="https://th.bing.com/th/id/OIP.nmRmmS9osHBn0YvU0g2LAAHaHa?w=203&h=203&c=7&r=0&o=5&pid=1.7" alt="Image" class="img-fluid"></a>
+              </div>
+              <div class="col-md-8 text-center">
+                <h2>Invite User</h2>
+              </div>
+              <div class="col text-right">
+                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><span class="icon-close2"></span></span>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Create Group</button>
+          <div class="p-4 to-front">
+            <div class="text-center">
+              <form action="#" class="d-flex mb-4">
+                <input type="email" class="form-control mr-3" placeholder="Enter your email address">
+                <input type="submit" class="btn btn-primary" value="Add">
+              </form>
+              <p class="mb-0 cancel"><a href="#" data-dismiss="modal">Invite</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</body>
+
+
+
+  
 <!-- Footer Start -->
 <div class="container-fluid text-light float-end" style="background: #051225;">
   <div class="container">
