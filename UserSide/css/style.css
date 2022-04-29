@@ -171,10 +171,11 @@ h6 {
 }
 
 .LogoImg {
-    height: 60px;
-    width: 60px;
+    height:15%;
+    width: 15%;
     margin-top: 7px;
-    margin-right: 20px
+  
+    
 }
 
 .dropdown-menu .dropdown-submenu {
@@ -184,10 +185,6 @@ h6 {
     top: -7px;
     }
 
-.content{
-        margin-right: 50px;
-        margin-left: 50px;
-}
 
 .container{
     padding:30px;
