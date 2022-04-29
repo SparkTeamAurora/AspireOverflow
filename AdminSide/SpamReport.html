@@ -64,15 +64,15 @@
             <div class="navbar-nav w-100">
 
                 <br><br>
-                <a href="Dashboard.html" class="nav-item nav-link "><i class="fa fa-desktop me-2"
+                <a href="Dashboard.html" class="nav-item nav-link"><i class="fa fa-desktop me-2"
                         aria-hidden="true"></i>Dashboard</a>
-                <a href="Employee.html" class="nav-item nav-link"><i class="fa fa-child me-2" aria-hidden="true"></i>
+                <a href="Employee.html" class="nav-item nav-link active"><i class="fa fa-child me-2"
+                        aria-hidden="true"></i>
                     Employees</a>
 
-                <a href="SpamReport.html" class="nav-item nav-link active"><i class="fa fa-flag me-2"
-                        aria-hidden="true"></i>
+                <a href="SpamReport.html" class="nav-item nav-link"><i class="fa fa-flag me-2" aria-hidden="true"></i>
                     Spam Reports</a>
-                <a href="UserVerification.html" class="nav-item nav-link "><i class="fa fa-check me-2"
+                <a href="UserVerification.html" class="nav-item nav-link"><i class="fa fa-check me-2"
                         aria-hidden="true"></i>
                     User Verfication</a>
 
@@ -88,17 +88,14 @@
     <div class="content">
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-20">
-                
-                
-              
             <a href="#" class="sidebar-toggler flex-shrink-0 w-16 p-4">
                 <br><br>
                 <i class="fa fa-bars"></i>
             </a>&nbsp;&nbsp;
             &nbsp;&nbsp;
-            <img class="AspireLogo" src="img/faqs.png" alt="Good Morning Friends"/>  
+            <img class="AspireLogo" src="img/faqs.png" alt="Good Morning Friends" />
             <h2 class="text-primary">Aspire Overflow</h2>
-            
+
             <div class="navbar-nav align-items-center ms-auto">
                 <div class="nav-item dropdown">
                     <button type="button" class="btn btn-primary rounded-pill m-2">Logout</button>
@@ -120,24 +117,25 @@
                     </ol>
                 </nav>
             </div>
-
-
             <br><br><br>
 
             <body>
-
                 <div class="container-xl">
                     <div class="title">
                         <div class="col-sm-30">
                             <h2>Spam Report</h2>
                             <link rel="stylesheet"
                                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-                            <div class="searchbar pull-right">
-                                <input type="text" name="search" placeholder="Search...">
-                                <span class="searchbar-icon"><i class="fas fa-search"></i></span>
+                            <div class="btn-group custom">
+                                <div class="form-outline">
+                                    <input type="search" id="form1" class="form-control" placeholder="Search" />
+                                </div>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
                             </div>
+                            <br><br>
                         </div>
-                        <br> <br><br><br>
                         <div class="table-responsive">
                             <div class="table-wrapper">
 
@@ -161,8 +159,7 @@
                                             <td>20</td>
 
                                             <main>
-                                                <td><button type="button" class="btn btn-outline-success"
-                                                        data-toggle="modal" data-target="#mybtnmodal">View</button>
+                                                <td><a href="SpamView.html"><button type="button" class="btn btn-outline-success">View</button></a>
                                                 </td>
                                             </main>
 
@@ -174,7 +171,7 @@
                                             <td>15</td>
 
                                             <main>
-                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                <td><a href="SpamView.html"><button type="button" class="btn btn-outline-success">View</button></a>
                                                 </td>
                                             </main>
 
@@ -186,7 +183,7 @@
                                             <td>10</td>
 
                                             <main>
-                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                <td><a href="SpamView.html"><button type="button" class="btn btn-outline-success">View</button></a>
                                                 </td>
                                             </main>
 
@@ -198,7 +195,7 @@
                                             <td>8</td>
 
                                             <main>
-                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                <td><a href="SpamView.html"><button type="button" class="btn btn-outline-success">View</button></a>
                                                 </td>
                                             </main>
 
@@ -210,7 +207,7 @@
                                             <td>2</td>
 
                                             <main>
-                                                <td><button type="button" class="btn btn-outline-success">View</button>
+                                                <td><a href="SpamView.html"><button type="button" class="btn btn-outline-success">View</button></a>
                                                 </td>
                                             </main>
 
@@ -222,22 +219,22 @@
 
                         </div>
                         <br><br>
-                   
-                            <div class="pagination justify-content-center">
-                                <a href="#">&laquo;</a>
-                                <a href="#">1</a>
-                                <a href="#" class="active">2</a>
-                                <a href="#">3</a>
-                                <a href="#">4</a>
-                                <a href="#">5</a>
-                                <a href="#">6</a>
-                                <a href="#">&raquo;</a>
-                            </div>
-                        
+
+                        <div class="pagination justify-content-center">
+                            <a href="#">&laquo;</a>
+                            <a href="#">1</a>
+                            <a href="#" class="active">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+
                     </div>
 
             </body>
-            </tr>
+            
 
 
 
